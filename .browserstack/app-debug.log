@@ -1706,3 +1706,200 @@ Sat Dec 17 2022 09:58:20:136 GMT+0530 (India Standard Time) -- Starting configur
 
 2022/12/19 10:05:49 response body: Bravo
 2022/12/19 10:05:49 Transition to Disconnected state
+2022/12/19 19:59:40 Binary exited with status: exit status 1073807364
+2022/12/19 19:59:40 Binary exited with: Mon Dec 19 2022 10:05:46:274 GMT+0530 (India Standard Time) -- BrowserStackLocal v8.8
+
+Mon Dec 19 2022 10:05:46:277 GMT+0530 (India Standard Time) -- Setting default local-identifier for BrowserStackLocal application...
+Mon Dec 19 2022 10:05:46:277 GMT+0530 (India Standard Time) -- The local-identifier for this tunnel is:  nativeapp:ce894a42-c6ed-45ed-8a13-ef99d8280b85
+Mon Dec 19 2022 10:05:48:587 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+
+2022/12/19 19:59:40 {"data":{"aliveTime":35636724,"appStatus":"Disconnected","appVersion":"3.5.4","error":"Mon Dec 19 2022 10:05:46:277 GMT+0530 (India Standard Time) -- Setting default local-identifier for BrowserStackLocal application...\r\nMon Dec 19 2022 10:05:46:277 GMT+0530 (India Standard Time) -- The local-identifier for this tunnel is:  nativeapp:ce894a42-c6ed-45ed-8a13-ef99d8280b85\r\nMon Dec 19 2022 10:05:48:587 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454\r\n","event_name":"LNA2_BINARY_EXIT","falconAliveTime":35632025,"machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":18592,"product":"local","sessionId":"c83e73da-d370-4d9a-8675-1896ec9cdfa6","team":"local","userId":""},"event_name":"LNA2_BINARY_EXIT","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/19 19:59:41 response body: Bravo
+2022/12/19 19:59:42 Error in sending kill request: Post "http://127.0.0.1:45454/kill": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/19 19:59:42 {"data":{"appStatus":"Disconnected","appVersion":"3.5.4","event_name":"LNA2_DISCONNECTED_DURATION","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":0,"product":"local","sessionId":"c83e73da-d370-4d9a-8675-1896ec9cdfa6","team":"local","timeDelta":"35634074","userId":""},"event_name":"LNA2_DISCONNECTED_DURATION","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/19 19:59:42 response body: Bravo
+2022/12/19 19:59:42 Deleting existing PID file
+2022/12/19 19:59:42 Sucessfully removed PID file
+2022/12/19 19:59:42 Cannot unlock "", reason: Lockfile owned by me has been removed unexpectedly
+2022/12/19 19:59:42 {"data":{"appStatus":"Disconnected","appVersion":"3.5.4","event_name":"LNA2_APP_EXITED","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":0,"product":"local","sessionId":"c83e73da-d370-4d9a-8675-1896ec9cdfa6","team":"local","userId":""},"event_name":"LNA2_APP_EXITED","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/19 19:59:42 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/19 19:59:42 Cannot fetch process with pid 18592
+2022/12/19 19:59:42 {"data":{"appStatus":"Disconnected","appVersion":"3.5.4","error":"Cannot fetch process, error: process does not exist","event_name":"LNA2_INVALID_BINARY_PID","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":18592,"product":"local","sessionId":"c83e73da-d370-4d9a-8675-1896ec9cdfa6","team":"local","userId":""},"event_name":"LNA2_INVALID_BINARY_PID","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/19 19:59:42 response body: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022/12/20 09:59:57 No PID file found at location C:\Users\Joseph/.browserstack/app_binary.pid
+2022/12/20 09:59:59 {"data":{"appStatus":"Starting","appVersion":"3.5.4","event_name":"LNA2_APP_SETTINGS_APPLIED","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":0,"product":"local","sessionId":"d5496f4e-42de-4472-9e28-d8e2a3be97c8","team":"local","userId":""},"event_name":"LNA2_APP_SETTINGS_APPLIED","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/20 10:00:01 response body: Bravo
+2022/12/20 10:00:09 cancelled update
+2022/12/20 10:00:14 Starting binary....
+2022/12/20 10:00:14 Just ran subprocess binary 12584, 
+2022/12/20 10:00:14 Writing PID 12584 to PID file at location C:\Users\Joseph/.browserstack/app_binary.pid
+2022/12/20 10:00:14 Write operation successful to PID file
+2022/12/20 10:00:14 {"data":{"appStatus":"Starting","appVersion":"3.5.4","event_name":"LNA2_BINARY_STARTUP","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":12584,"product":"local","sessionId":"d5496f4e-42de-4472-9e28-d8e2a3be97c8","team":"local","userId":""},"event_name":"LNA2_BINARY_STARTUP","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/20 10:00:14 response body: Bravo
+2022/12/20 10:00:14 Started binary
+2022/12/20 10:00:17 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/20 10:00:17 Provided process is Binary app process running with arguments BrowserStackLocalApp.exe --app --source native-app:3.5.4 --app-version 3.5.4 --identifier ce894a42-c6ed-45ed-8a13-ef99d8280b85:d5496f4e-42de-4472-9e28-d8e2a3be97c8
+2022/12/20 10:00:17 {"data":{"appStatus":"Starting","appVersion":"3.5.4","error":"Get \"http://127.0.0.1:45454/status\": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.","event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":12584,"product":"local","sessionId":"d5496f4e-42de-4472-9e28-d8e2a3be97c8","team":"local","userId":""},"event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/20 10:00:17 response body: Bravo
+2022/12/20 10:00:17 Sending current status as binary process is still alive at pid 12584
+2022/12/20 10:00:20 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/20 10:00:20 Provided process is Binary app process running with arguments BrowserStackLocalApp.exe --app --source native-app:3.5.4 --app-version 3.5.4 --identifier ce894a42-c6ed-45ed-8a13-ef99d8280b85:d5496f4e-42de-4472-9e28-d8e2a3be97c8
+2022/12/20 10:00:20 {"data":{"appStatus":"Starting","appVersion":"3.5.4","error":"Get \"http://127.0.0.1:45454/status\": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.","event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":12584,"product":"local","sessionId":"d5496f4e-42de-4472-9e28-d8e2a3be97c8","team":"local","userId":""},"event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/20 10:00:20 response body: Bravo
+2022/12/20 10:00:20 Sending current status as binary process is still alive at pid 12584
+2022/12/20 10:00:24 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/20 10:00:24 Provided process is Binary app process running with arguments BrowserStackLocalApp.exe --app --source native-app:3.5.4 --app-version 3.5.4 --identifier ce894a42-c6ed-45ed-8a13-ef99d8280b85:d5496f4e-42de-4472-9e28-d8e2a3be97c8
+2022/12/20 10:00:24 {"data":{"appStatus":"Starting","appVersion":"3.5.4","error":"Get \"http://127.0.0.1:45454/status\": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.","event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":12584,"product":"local","sessionId":"d5496f4e-42de-4472-9e28-d8e2a3be97c8","team":"local","userId":""},"event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/20 10:00:24 response body: Bravo
+2022/12/20 10:00:24 Sending current status as binary process is still alive at pid 12584
+2022/12/20 10:00:28 {"data":{"appStatus":"Starting","appVersion":"3.5.4","event_name":"LNA2_STARTING_DURATION","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":12584,"product":"local","sessionId":"d5496f4e-42de-4472-9e28-d8e2a3be97c8","team":"local","timeDelta":"30356","userId":""},"event_name":"LNA2_STARTING_DURATION","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/20 10:00:28 response body: Bravo
+2022/12/20 10:00:28 Transition to Disconnected state
+2022/12/20 19:33:13 Binary exited with status: exit status 1073807364
+2022/12/20 19:33:13 Binary exited with: Tue Dec 20 2022 10:00:24:684 GMT+0530 (India Standard Time) -- BrowserStackLocal v8.8
+
+Tue Dec 20 2022 10:00:24:796 GMT+0530 (India Standard Time) -- Setting default local-identifier for BrowserStackLocal application...
+Tue Dec 20 2022 10:00:24:799 GMT+0530 (India Standard Time) -- The local-identifier for this tunnel is:  nativeapp:ce894a42-c6ed-45ed-8a13-ef99d8280b85
+Tue Dec 20 2022 10:00:28:97 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+
+2022/12/20 19:33:13 {"data":{"aliveTime":34379500,"appStatus":"Disconnected","appVersion":"3.5.4","error":"Tue Dec 20 2022 10:00:24:796 GMT+0530 (India Standard Time) -- Setting default local-identifier for BrowserStackLocal application...\r\nTue Dec 20 2022 10:00:24:799 GMT+0530 (India Standard Time) -- The local-identifier for this tunnel is:  nativeapp:ce894a42-c6ed-45ed-8a13-ef99d8280b85\r\nTue Dec 20 2022 10:00:28:97 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454\r\n","event_name":"LNA2_BINARY_EXIT","falconAliveTime":34365625,"machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":12584,"product":"local","sessionId":"d5496f4e-42de-4472-9e28-d8e2a3be97c8","team":"local","userId":""},"event_name":"LNA2_BINARY_EXIT","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/20 19:33:14 response body: Bravo
+2022/12/20 19:33:15 Error in sending kill request: Post "http://127.0.0.1:45454/kill": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/20 19:33:15 {"data":{"appStatus":"Disconnected","appVersion":"3.5.4","event_name":"LNA2_DISCONNECTED_DURATION","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":0,"product":"local","sessionId":"d5496f4e-42de-4472-9e28-d8e2a3be97c8","team":"local","timeDelta":"34367664","userId":""},"event_name":"LNA2_DISCONNECTED_DURATION","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/20 19:33:15 response body: Bravo
+2022/12/20 19:33:15 Deleting existing PID file
+2022/12/20 19:33:15 Sucessfully removed PID file
+2022/12/20 19:33:15 Cannot unlock "", reason: Lockfile owned by me has been removed unexpectedly
+2022/12/20 19:33:15 {"data":{"appStatus":"Disconnected","appVersion":"3.5.4","event_name":"LNA2_APP_EXITED","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":0,"product":"local","sessionId":"d5496f4e-42de-4472-9e28-d8e2a3be97c8","team":"local","userId":""},"event_name":"LNA2_APP_EXITED","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/20 19:33:16 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/20 19:33:16 Cannot fetch process with pid 12584
+2022/12/20 19:33:16 {"data":{"appStatus":"Disconnected","appVersion":"3.5.4","error":"Cannot fetch process, error: process does not exist","event_name":"LNA2_INVALID_BINARY_PID","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":12584,"product":"local","sessionId":"d5496f4e-42de-4472-9e28-d8e2a3be97c8","team":"local","userId":""},"event_name":"LNA2_INVALID_BINARY_PID","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/20 19:33:16 response body: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022/12/21 09:58:39 No PID file found at location C:\Users\Joseph/.browserstack/app_binary.pid
+2022/12/21 09:58:41 {"data":{"appStatus":"Starting","appVersion":"3.5.4","event_name":"LNA2_APP_SETTINGS_APPLIED","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":0,"product":"local","sessionId":"ad9b7204-7a7c-4516-b051-01e2bd5c74b7","team":"local","userId":""},"event_name":"LNA2_APP_SETTINGS_APPLIED","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/21 09:58:42 response body: Bravo
+2022/12/21 09:58:44 cancelled update
+2022/12/21 09:58:54 Starting binary....
+2022/12/21 09:58:55 Just ran subprocess binary 17452, 
+2022/12/21 09:58:55 Writing PID 17452 to PID file at location C:\Users\Joseph/.browserstack/app_binary.pid
+2022/12/21 09:58:55 Write operation successful to PID file
+2022/12/21 09:58:55 {"data":{"appStatus":"Starting","appVersion":"3.5.4","event_name":"LNA2_BINARY_STARTUP","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":17452,"product":"local","sessionId":"ad9b7204-7a7c-4516-b051-01e2bd5c74b7","team":"local","userId":""},"event_name":"LNA2_BINARY_STARTUP","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/21 09:58:55 response body: Bravo
+2022/12/21 09:58:55 Started binary
+2022/12/21 09:58:57 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/21 09:58:57 Provided process is Binary app process running with arguments BrowserStackLocalApp.exe --app --source native-app:3.5.4 --app-version 3.5.4 --identifier ce894a42-c6ed-45ed-8a13-ef99d8280b85:ad9b7204-7a7c-4516-b051-01e2bd5c74b7
+2022/12/21 09:58:57 {"data":{"appStatus":"Starting","appVersion":"3.5.4","error":"Get \"http://127.0.0.1:45454/status\": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.","event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":17452,"product":"local","sessionId":"ad9b7204-7a7c-4516-b051-01e2bd5c74b7","team":"local","userId":""},"event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/21 09:58:58 response body: Bravo
+2022/12/21 09:58:58 Sending current status as binary process is still alive at pid 17452
+2022/12/21 09:59:01 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/21 09:59:01 Provided process is Binary app process running with arguments BrowserStackLocalApp.exe --app --source native-app:3.5.4 --app-version 3.5.4 --identifier ce894a42-c6ed-45ed-8a13-ef99d8280b85:ad9b7204-7a7c-4516-b051-01e2bd5c74b7
+2022/12/21 09:59:01 {"data":{"appStatus":"Starting","appVersion":"3.5.4","error":"Get \"http://127.0.0.1:45454/status\": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.","event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":17452,"product":"local","sessionId":"ad9b7204-7a7c-4516-b051-01e2bd5c74b7","team":"local","userId":""},"event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/21 09:59:01 response body: Bravo
+2022/12/21 09:59:01 Sending current status as binary process is still alive at pid 17452
+2022/12/21 09:59:05 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/21 09:59:05 Provided process is Binary app process running with arguments BrowserStackLocalApp.exe --app --source native-app:3.5.4 --app-version 3.5.4 --identifier ce894a42-c6ed-45ed-8a13-ef99d8280b85:ad9b7204-7a7c-4516-b051-01e2bd5c74b7
+2022/12/21 09:59:05 {"data":{"appStatus":"Starting","appVersion":"3.5.4","error":"Get \"http://127.0.0.1:45454/status\": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.","event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":17452,"product":"local","sessionId":"ad9b7204-7a7c-4516-b051-01e2bd5c74b7","team":"local","userId":""},"event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/21 09:59:05 response body: Bravo
+2022/12/21 09:59:05 Sending current status as binary process is still alive at pid 17452
+2022/12/21 09:59:08 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/21 09:59:08 Provided process is Binary app process running with arguments BrowserStackLocalApp.exe --app --source native-app:3.5.4 --app-version 3.5.4 --identifier ce894a42-c6ed-45ed-8a13-ef99d8280b85:ad9b7204-7a7c-4516-b051-01e2bd5c74b7
+2022/12/21 09:59:08 {"data":{"appStatus":"Starting","appVersion":"3.5.4","error":"Get \"http://127.0.0.1:45454/status\": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.","event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":17452,"product":"local","sessionId":"ad9b7204-7a7c-4516-b051-01e2bd5c74b7","team":"local","userId":""},"event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/21 09:59:09 response body: Bravo
+2022/12/21 09:59:09 Sending current status as binary process is still alive at pid 17452
+2022/12/21 09:59:10 {"data":{"appStatus":"Starting","appVersion":"3.5.4","event_name":"LNA2_STARTING_DURATION","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":17452,"product":"local","sessionId":"ad9b7204-7a7c-4516-b051-01e2bd5c74b7","team":"local","timeDelta":"31229","userId":""},"event_name":"LNA2_STARTING_DURATION","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/21 09:59:10 response body: Bravo
+2022/12/21 09:59:10 Transition to Disconnected state
+2022/12/21 20:03:58 Binary exited with status: exit status 1073807364
+2022/12/21 20:03:58 Binary exited with: Wed Dec 21 2022 09:59:06:878 GMT+0530 (India Standard Time) -- BrowserStackLocal v8.8
+
+Wed Dec 21 2022 09:59:06:921 GMT+0530 (India Standard Time) -- Setting default local-identifier for BrowserStackLocal application...
+Wed Dec 21 2022 09:59:06:931 GMT+0530 (India Standard Time) -- The local-identifier for this tunnel is:  nativeapp:ce894a42-c6ed-45ed-8a13-ef99d8280b85
+Wed Dec 21 2022 09:59:10:398 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+
+2022/12/21 20:03:58 {"data":{"aliveTime":36302844,"appStatus":"Disconnected","appVersion":"3.5.4","error":"Wed Dec 21 2022 09:59:06:921 GMT+0530 (India Standard Time) -- Setting default local-identifier for BrowserStackLocal application...\r\nWed Dec 21 2022 09:59:06:931 GMT+0530 (India Standard Time) -- The local-identifier for this tunnel is:  nativeapp:ce894a42-c6ed-45ed-8a13-ef99d8280b85\r\nWed Dec 21 2022 09:59:10:398 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454\r\n","event_name":"LNA2_BINARY_EXIT","falconAliveTime":36287355,"machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":17452,"product":"local","sessionId":"ad9b7204-7a7c-4516-b051-01e2bd5c74b7","team":"local","userId":""},"event_name":"LNA2_BINARY_EXIT","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/21 20:03:59 response body: Bravo
+2022/12/21 20:04:00 Error in sending kill request: Post "http://127.0.0.1:45454/kill": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/21 20:04:00 {"data":{"appStatus":"Disconnected","appVersion":"3.5.4","event_name":"LNA2_DISCONNECTED_DURATION","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":0,"product":"local","sessionId":"ad9b7204-7a7c-4516-b051-01e2bd5c74b7","team":"local","timeDelta":"36289476","userId":""},"event_name":"LNA2_DISCONNECTED_DURATION","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/21 20:04:00 response body: Bravo
+2022/12/21 20:04:00 Deleting existing PID file
+2022/12/21 20:04:00 Sucessfully removed PID file
+2022/12/21 20:04:00 Cannot unlock "", reason: Lockfile owned by me has been removed unexpectedly
+2022/12/21 20:04:00 {"data":{"appStatus":"Disconnected","appVersion":"3.5.4","event_name":"LNA2_APP_EXITED","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":0,"product":"local","sessionId":"ad9b7204-7a7c-4516-b051-01e2bd5c74b7","team":"local","userId":""},"event_name":"LNA2_APP_EXITED","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/21 20:04:00 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/21 20:04:00 Cannot fetch process with pid 17452
+2022/12/21 20:04:00 {"data":{"appStatus":"Disconnected","appVersion":"3.5.4","error":"Cannot fetch process, error: process does not exist","event_name":"LNA2_INVALID_BINARY_PID","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":17452,"product":"local","sessionId":"ad9b7204-7a7c-4516-b051-01e2bd5c74b7","team":"local","userId":""},"event_name":"LNA2_INVALID_BINARY_PID","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/21 20:04:00 response body: Bravo
+2022/12/22 09:52:23 No PID file found at location C:\Users\Joseph/.browserstack/app_binary.pid
+2022/12/22 09:52:30 {"data":{"appStatus":"Starting","appVersion":"3.5.4","event_name":"LNA2_APP_SETTINGS_APPLIED","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":0,"product":"local","sessionId":"7ecf1fb7-2c84-482c-b06c-13af7fb10580","team":"local","userId":""},"event_name":"LNA2_APP_SETTINGS_APPLIED","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/22 09:52:32 response body: Bravo
+2022/12/22 09:52:45 Starting binary....
+2022/12/22 09:52:46 Just ran subprocess binary 19152, 
+2022/12/22 09:52:46 Writing PID 19152 to PID file at location C:\Users\Joseph/.browserstack/app_binary.pid
+2022/12/22 09:52:46 Write operation successful to PID file
+2022/12/22 09:52:46 {"data":{"appStatus":"Starting","appVersion":"3.5.4","event_name":"LNA2_BINARY_STARTUP","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":19152,"product":"local","sessionId":"7ecf1fb7-2c84-482c-b06c-13af7fb10580","team":"local","userId":""},"event_name":"LNA2_BINARY_STARTUP","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/22 09:52:46 response body: Bravo
+2022/12/22 09:52:46 Started binary
+2022/12/22 09:52:48 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/22 09:52:48 Provided process is Binary app process running with arguments BrowserStackLocalApp.exe --app --source native-app:3.5.4 --app-version 3.5.4 --identifier ce894a42-c6ed-45ed-8a13-ef99d8280b85:7ecf1fb7-2c84-482c-b06c-13af7fb10580
+2022/12/22 09:52:48 {"data":{"appStatus":"Starting","appVersion":"3.5.4","error":"Get \"http://127.0.0.1:45454/status\": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.","event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":19152,"product":"local","sessionId":"7ecf1fb7-2c84-482c-b06c-13af7fb10580","team":"local","userId":""},"event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/22 09:52:48 response body: Bravo
+2022/12/22 09:52:48 Sending current status as binary process is still alive at pid 19152
+2022/12/22 09:52:52 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/22 09:52:52 Provided process is Binary app process running with arguments BrowserStackLocalApp.exe --app --source native-app:3.5.4 --app-version 3.5.4 --identifier ce894a42-c6ed-45ed-8a13-ef99d8280b85:7ecf1fb7-2c84-482c-b06c-13af7fb10580
+2022/12/22 09:52:52 {"data":{"appStatus":"Starting","appVersion":"3.5.4","error":"Get \"http://127.0.0.1:45454/status\": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.","event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":19152,"product":"local","sessionId":"7ecf1fb7-2c84-482c-b06c-13af7fb10580","team":"local","userId":""},"event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/22 09:52:52 response body: Bravo
+2022/12/22 09:52:52 Sending current status as binary process is still alive at pid 19152
+2022/12/22 09:52:55 Falcon servers responded with error Get "http://127.0.0.1:45454/status": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.
+2022/12/22 09:52:55 Provided process is Binary app process running with arguments BrowserStackLocalApp.exe --app --source native-app:3.5.4 --app-version 3.5.4 --identifier ce894a42-c6ed-45ed-8a13-ef99d8280b85:7ecf1fb7-2c84-482c-b06c-13af7fb10580
+2022/12/22 09:52:55 {"data":{"appStatus":"Starting","appVersion":"3.5.4","error":"Get \"http://127.0.0.1:45454/status\": dial tcp 127.0.0.1:45454: connectex: No connection could be made because the target machine actively refused it.","event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":19152,"product":"local","sessionId":"7ecf1fb7-2c84-482c-b06c-13af7fb10580","team":"local","userId":""},"event_name":"LNA2_FALCON_ERR_BINARY_ACTIVE","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/22 09:52:55 response body: Bravo
+2022/12/22 09:52:55 Sending current status as binary process is still alive at pid 19152
+2022/12/22 09:52:58 {"data":{"appStatus":"Starting","appVersion":"3.5.4","event_name":"LNA2_STARTING_DURATION","machineId":"ce894a42-c6ed-45ed-8a13-ef99d8280b85","os":"windows","pid":19152,"product":"local","sessionId":"7ecf1fb7-2c84-482c-b06c-13af7fb10580","team":"local","timeDelta":"35296","userId":""},"event_name":"LNA2_STARTING_DURATION","event_type":"web_events","product":"local","team":"local"}
+
+2022/12/22 09:52:58 response body: Bravo
+2022/12/22 09:52:58 Transition to Disconnected state
+2022/12/22 10:21:13 cancelled update

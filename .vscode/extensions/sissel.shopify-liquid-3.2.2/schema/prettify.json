@@ -1,0 +1,10 @@
+{
+  "title": "Prettify Beautification Rules.",
+  "description": "Configuration defined here will be forwarded to the vscode-liquid extension.",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "properties": {
+    "prettify": {
+      "$ref": "./liquidrc.json"
+    }
+  }
+}
