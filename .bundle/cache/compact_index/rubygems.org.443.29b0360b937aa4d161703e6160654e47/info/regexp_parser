@@ -54,3 +54,4 @@
 2.5.0 |checksum:a076d2d35ab8d11feab5fecf8aa09ec6df68c2429810748cba079f7b021ecde5,ruby:>= 2.0.0
 2.6.0 |checksum:f163ba463a45ca2f2730e0902f2475bb0eefcd536dfc2f900a86d1e5a7d7a556,ruby:>= 2.0.0
 2.6.1 |checksum:4e7b6a95c3b207c2d5274ff5f6334e7a564bf4f0e871028137dccd751eeb4766,ruby:>= 2.0.0
+2.6.2 |checksum:027ee5a6ce139c34ec0fad5c397e2cf5b745e31f93e119fc3a59ed5f78124f7e,ruby:>= 2.0.0

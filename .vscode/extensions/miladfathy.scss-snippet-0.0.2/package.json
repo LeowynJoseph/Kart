@@ -1,0 +1,71 @@
+{
+	"name": "scss-snippet",
+	"displayName": "scss snippet",
+	"description": "An extension for fast coding of SCSS codes",
+	"version": "0.0.2",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.55.0"
+	},
+	"publisher": "Miladfathy",
+	"author": {
+		"name": "Miladfathy",
+		"url": "https://github.com/miladfathy/",
+		"email": "miladfathylangeriz@gmail.com"
+	},
+	"repository": {
+		"url": "https://github.com/miladfathy/"
+	},
+	"icon": "assets/icon.png",
+	"keywords": [
+		"scss",
+		"SCss",
+		"sass",
+		"Sass",
+		"scss snippets",
+		"sass snippets",
+		"sass snippet",
+		"scss snippet",
+		"scss code",
+		"snippet scss",
+		"snippet sass",
+		"snippets sass",
+		"snippets sass",
+		"SASS",
+		"SCSS",
+		"Sass Snippet",
+		"Sass Snippets",
+		"Milad Fathy",
+		"Snippet",
+		"Snippets",
+		"css",
+		"CSS",
+		"Css"
+	],
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "scss",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "sass",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "ff3fd1bc-5d12-45ef-9cff-fc74fc4b86c3",
+		"publisherId": "cd90fff4-4e2a-42d6-844d-aadffebcc118",
+		"publisherDisplayName": "Milad Fathy",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1673001401041,
+		"preRelease": false
+	}
+}

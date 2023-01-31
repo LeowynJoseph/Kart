@@ -10,3 +10,7 @@
 3.0.2.pre1-java |checksum:00fc5f559d2d56d5a01c738adb668f4bb0b8e18fde5cad7c7d9d9f87062c8efb,ruby:>= 2.5,rubygems:>= 2.6
 3.0.2 |checksum:71b79cbeb18070811a34aabff3beb9874d4fa2d1eebf7bbac7dea9454b07daca,ruby:>= 2.5,rubygems:>= 2.6
 3.0.2-java |checksum:4bcb8149926b25b90fcb43337e6b8986d806fa6d039a69c697b23b7e372e21ac,ruby:>= 2.5,rubygems:>= 2.6
+3.0.3 |checksum:d3569f2e4800a608b2ac7507be3fd9092bf92c0fe3f76674362ca1962f1d8f05,ruby:>= 2.5,rubygems:>= 2.6
+3.0.3-java |checksum:2b88d1b79b88854b241d7df06337a9802c030bc0c5a29b80ea00c70de67442f9,ruby:>= 2.5,rubygems:>= 2.6
+3.0.4 |checksum:dc6cb594b258a9d1d1b49f0b89284b94afaef188d61e3b1f3595bf6749c7bf6b,ruby:>= 2.5,rubygems:>= 2.6
+3.0.4-java |checksum:07105f9ac34129e489b320cf8673c9fb7ae9fe550ccc261a2448c57c9e7bf300,ruby:>= 2.5,rubygems:>= 2.6

@@ -1,0 +1,107 @@
+{
+	"variables": {
+		"prefix": "$",
+		"body": "\\$${1:property}: ${2:value};",
+		"description": "\\$${1:property}: ${2:value};"
+	},
+	"@import": {
+		"prefix": "@import",
+		"body": "@import '${1:Path}';",
+		"description": ""
+	},
+	"@if": {
+		"prefix": "@if",
+		"body": "@if ${1:Condition}{\r\n\t$2\r\n}",
+		"description": ""
+	},
+	"@ifelse": {
+		"prefix": "@ifelse",
+		"body": "@if  ${1:Condition}{\r\n\t$2\r\n} @else {\r\n\t$3\r\n}",
+		"description": ""
+	},
+	"@ifelseif": {
+		"prefix": "@ifelseif",
+		"body": "@if  ${1:Condition} {\r\n\t$2\r\n} @else if ${3:Condition} {\r\n\t$4\r\n} @else {\r\n\t$5\r\n}",
+		"description": ""
+	},
+	"@charset": {
+		"prefix": "@charset",
+		"body": "@charset \"${1:UTF-8}\";",
+		"description": ""
+	},
+	"@use": {
+		"prefix": "@use",
+		"body": "@use '${1:Path}';",
+		"description": ""
+	},
+	"@forward": {
+		"prefix": "@forward",
+		"body": "@forward \"${1:Path}\";",
+		"description": ""
+	},
+	"@mixin": {
+		"prefix": "@mixin",
+		"body": "@mixin ${1:name} {\r\n\t$2\r\n}",
+		"description": ""
+	},
+	"@include": {
+		"prefix": "@include",
+		"body": "@include ${1:mixinName};",
+		"description": ""
+	},
+	"@function": {
+		"prefix": "@function",
+		"body": "@function ${1:Name}(${2:Arguments}) {\r\n\t$3\r\n}",
+		"description": ""
+	},
+	"@return": {
+		"prefix": "@return",
+		"body": "@return mix(${1:returnVars});",
+		"description": ""
+	},
+	"@extend": {
+		"prefix": "@extend",
+		"body": "@extend ${1:classOrIdOrEl};",
+		"description": ""
+	},
+	"@error": {
+		"prefix": "@error",
+		"body": "@error \"${1:Message With Vars e.g #{\\$property\\} }\";",
+		"description": ""
+	},
+	"@for": {
+		"prefix": "@for",
+		"body": "@for \\$${1:VarName} from ${2:1} through ${3:3} {\r\n\t$4\r\n}",
+		"description": ""
+	},
+	"@each": {
+		"prefix": "@each",
+		"body": "@each \\$${1:size} in \\$${2:sizes} {\r\n\t$3\r\n}",
+		"description": ""
+	},
+	"@while": {
+		"prefix": "@while",
+		"body": "@while \\$${1:value}>\\$${2:base} {\r\n\t$3\r\n}",
+		"description": ""
+	},
+	"@warn": {
+		"prefix": "@warn",
+		"body": "@warn \"${1:Message With Vars e.g #{\\$property\\} }\";",
+		"description": ""
+	},
+	"@debug": {
+		"prefix": "@debug",
+		"body": "@debug \"${1:Message With Vars e.g #{\\$property} }\";",
+		"description": ""
+	},
+	"@function-set-color": {
+		"prefix": "@function-set-color",
+		"body": "@function set-color ($$color){\r\n    @if (lightness($color)>=50) {\r\n        @return #fff\r\n    }@else{\r\n        @return #000\r\n    }\r\n}",
+		"description": ""
+	},
+	"@mixmin-perfix": {
+		"prefix": "@mixmin-perfix",
+		"body": "@mixin ${1:name}($${2:argument-name}:${3:default}) {\r\n   -ms-${1:name}: $${2:argument-name};\r\n   -o-${1:name}: $${2:argument-name};\r\n   -moz-${1:name}: $${2:argument-name};\r\n   -webkit-${1:name}: $${2:argument-name};\r\n    ${1:name}: $${2:argument-name};\r\n}",
+		"description": ""
+	}
+}

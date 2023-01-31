@@ -123,3 +123,4 @@
 5.16.1 |checksum:c3153e05f8c7dd83ee1374a10f2324f66fafdc78bc0e82c4006c3d19f4cbe623,ruby:< 4.0&>= 2.6
 5.16.2 |checksum:c1be0c6b57fab451faa08e74ffa71e7d6a259b90f4bacb881c7f4808ec8b4991,ruby:< 4.0&>= 2.6
 5.16.3 |checksum:60f81ad96ca5518e1457bd29eb826db60f86fbbdf8c05eac63b4824ef1f52614,ruby:< 4.0&>= 2.6
+5.17.0 |checksum:c0dfaa3e99ed5ee3500c92bb114cf9d0d3c1e6995e162dd7b49970a9f0315ece,ruby:< 4.0&>= 2.6

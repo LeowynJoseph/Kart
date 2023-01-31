@@ -48,3 +48,4 @@
 1.22.0 parser:>= 3.1.1.0|checksum:5336a959c20b66a79050557fd31cf7e4abfb980f0d461736ff50f903a10870f2,ruby:>= 2.6.0
 1.23.0 parser:>= 3.1.1.0|checksum:fe4bafaa0a6ccf400849fb720f9dd2428b07b00fcdeeec33a8f1146e0c1e38e2,ruby:>= 2.6.0
 1.24.0 parser:>= 3.1.1.0|checksum:a917dc38015ccfa4397d34e71adaca2187ec7f2adc903f1af909fb6b097a136b,ruby:>= 2.6.0
+1.24.1 parser:>= 3.1.1.0|checksum:6dd194309d48ebb1c558329ffd46a04e2fdf1652d8cde574f963c392fe52bfdd,ruby:>= 2.6.0
